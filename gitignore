@@ -1,0 +1,59 @@
+# Fichiers de clés sensibles
+*.key
+dataencrypted.key
+
+# Logs
+*.log
+/var/log/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Fichiers de configuration locaux personnalisés
+*local.conf
+*local.sh
+
+# Fichiers de test
+test/
+tests/
+*.test
+
+# Documentation générée
+site/
+_site/
